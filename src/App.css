@@ -1,43 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
+
 body,
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
   line-height: normal;
-}
-
-:root {
-  /* fonts */
-  --font-dm-sans: "DM Sans";
-  --font-inter: Inter;
-  --font-rubik: Rubik;
-
-  /* font sizes */
-  --font-size-5xl: 24px;
-  --font-size-3xl: 22px;
-  --font-size-53xl: 72px;
-  --font-size-13xl: 32px;
-  --font-size-7xl: 26px;
-
-  /* Colors */
-  --color-white: #fff;
-  --color-black: #000;
-  --color-gainsboro: #d9d9d9;
-  --color-darkslateblue: #29539b;
-
-  /* Gaps */
-  --gap-5xl: 24px;
-
-  /* Paddings */
-  --padding-5xs: 8px;
-  --padding-xl: 20px;
-  --padding-5xl: 24px;
-
-  /* border radiuses */
-  --br-base: 16px;
-  --br-5xs: 8px;
-  --br-xs: 12px;
 }

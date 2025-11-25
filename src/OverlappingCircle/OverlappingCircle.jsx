@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-export default function App() {
+export default function OverlappingCircle() {
   const RADIUS = 100;
   const [circles, setCircles] = useState([]);
 

@@ -1,0 +1,59 @@
+body {
+    background: #1c1c1c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: -apple-system, BlinkMacSystemFont;
+  }
+  
+  .calculator {
+    background: black;
+    width: 320px;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  
+  .display {
+    color: white;
+    font-size: 48px;
+    text-align: right;
+    padding: 20px;
+    min-height: 80px;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 10px;
+  }
+  
+  button {
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    font-size: 22px;
+    cursor: pointer;
+    background: #333;
+    color: white;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  .orange {
+    background: #ff9f0a;
+  }
+  
+  .gray {
+    background: #a5a5a5;
+    color: black;
+  }
+  
+  .zero {
+    grid-column: span 2;
+    border-radius: 40px;
+  }
+  
